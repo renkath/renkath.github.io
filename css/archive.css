@@ -1,0 +1,119 @@
+.archive-header {
+    /* margin: 0.5em 0; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    color: var(--color6);
+    border-top: 1px solid var(--color4);
+    border-bottom: 1px solid var(--color4);
+}
+
+.archive-header ul{
+    list-style: none;
+    padding: 0px;
+    margin:  20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.archive-header li{
+    padding: 4px;
+    margin: 0.3em;
+    border-radius:1em ;
+    background-color: var(--color4);
+    height: fit-content;
+
+}
+
+.archive-header li:hover{
+    background-color: var(--color3);
+}
+
+
+.archive-header a{
+    text-decoration: none;
+    color: var(--color6);
+}
+
+
+
+.archive-categories{
+    flex:1;
+    flex-direction: row-reverse;
+    display: flex;
+    flex-wrap: nowrap;
+   
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    align-items: center;
+
+}
+
+.archive-categories-title{
+    text-align: center;
+    writing-mode: vertical-rl;
+    background-color: var(--color3);
+    color: var(--color4);
+    height: 4em;
+    /* width: fit-content; */
+    margin: 0 0.5em;
+    border-radius:1em ;
+    /* opacity: 0.8; */
+   
+}
+
+.archive-tags{
+    flex:1;
+    display: flex;
+    /* border-radius: 1em; */
+    margin-bottom: 0.5em;
+    /* justify-content: center; */
+    /* width: 50%; */
+    /* height: 5em; */
+    align-items: center;
+    /* color: var(--color4); */
+    /* border-left: 1px dotted var(--color3); */
+}
+
+
+.archive-tags-title{
+    text-align: center;
+    writing-mode: vertical-rl;
+    background-color: var(--color6);
+    color: var(--color4);
+    height: 4em;
+    margin: 0 0.5em;
+    border-radius:1em ;
+    /* opacity: 0.8; */
+}
+
+.archive-posts{
+    margin: 2em 0;
+}
+
+.posts {
+    padding: 0;
+    list-style: none;
+    margin: 1em 0;
+}
+
+.archive-main{
+    margin: 1em 0;
+}
+
+.archive-title {
+    /* font-size: 1.2em; */
+    margin: 1em;
+    color: var(--color1);
+    /* font-weight: bold; */
+    text-decoration: none;
+   
+  }
+ 
+.archive-title:hover{
+    transition: opacity ease-in-out .5s;
+    color: var(--color3);
+    text-decoration: underline;
+    text-decoration-thickness: 0.2em;
+  }

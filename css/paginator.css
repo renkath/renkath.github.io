@@ -1,0 +1,23 @@
+.paginator {
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: right;
+}
+.page-number.current {
+    color: var(--color6);
+    padding: 0.5em;
+    text-align: center;
+    background-color: var(--color7);
+    border-radius: 6px
+}
+.paginator a {
+    color: var(--color6);
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+.paginator a:hover{
+    color: var(--color5);
+}
+
+

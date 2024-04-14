@@ -1,0 +1,66 @@
+:root {
+  --color1: #222831;  /* 所有字体颜色*/
+  --color2: #31363F;  /* nav字体颜色*/
+  --color3: #76ABAE;  /* a hover颜色*/
+  --color4: #EEEEEE;  /* 边框横线颜色*/
+  --color5: #2B4450;  /* 没有用到*/
+  --color6: #497285;  /* 脚注和标题颜色*/
+  --color7: #DFEBED;  /* 分页的背景色颜色*/
+  /* --color8: #F78536;
+  --color9: #db874b; */
+}
+
+body {
+  margin: 40px 20%;
+  font-family: "Rubik", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei",
+    "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+  font-size: 16px;
+  line-height: 1.8em;
+  letter-spacing: 0.6px;
+  color: var(--color1);
+}
+
+.post{
+  padding: 24px 0;
+  border-top: 1px solid var(--color4);
+
+}
+
+.post-title {
+  font-size: 1.2em;
+  color: var(--color1);
+  font-weight: bold;
+  text-decoration: none;
+ 
+}
+
+.post-title:hover{
+  transition: opacity ease-in-out .5s;
+  color: var(--color3);
+  text-decoration: underline;
+  text-decoration-thickness: 0.2em;
+}
+
+.post-excerpt {
+  padding: 1em 0;
+  text-align: justify;
+}
+
+.post-date {
+  font-size: 0.9em;
+}
+
+.read-more{
+  text-decoration: none;
+  color: var(--color6);
+}
+.read-more:hover{
+  color: var(--color3);
+  text-decoration: underline;
+  text-decoration-thickness: 0.2em;
+}
+
+
+
+
+
