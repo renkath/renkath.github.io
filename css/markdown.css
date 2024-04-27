@@ -86,7 +86,7 @@
 }
 .page-content ul
 {
-    list-style: none;
+    /* list-style: none; */
     padding-left: 0;
 }
 .page-content img
